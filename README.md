@@ -1,6 +1,6 @@
 # Image Captioning using Xception Netowrk and Beam Search
 
-I tried to comment on the codeas much as possible, it should be easy to follow.
+I tried to comment on the code as much as possible, it should be easy to follow. Feel free to use the trained model in your own projects. I have included the weight of the trained model.
 
 ### Examples of the outputs:
 
