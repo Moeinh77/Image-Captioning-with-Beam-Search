@@ -1,3 +1,5 @@
+TODO: try beam search with evaluation and tst set
+
 # Image Captioning using Xception Netowrk and Beam Search
 
 I tried to comment on the code as much as possible, it should be easy to follow. Feel free to use the trained model in your own projects. I have included the weight of the trained model.
