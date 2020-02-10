@@ -16,4 +16,4 @@ I have used a pretrained Xception network without the last two fully connected l
 
 ### More on image captioning:
 
-![Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
+[Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
