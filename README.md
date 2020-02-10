@@ -16,6 +16,8 @@ I have used a pretrained Xception network without the last two fully connected l
 
 ### More on image captioning:
 
-[Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
-[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044)
-[Automated Image Captioning with ConvNets and Recurrent Nets](https://cs.stanford.edu/people/karpathy/sfmltalk.pdf)
+:notebook:[Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
+
+:notebook:[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044)
+
+:notebook:[Automated Image Captioning with ConvNets and Recurrent Nets](https://cs.stanford.edu/people/karpathy/sfmltalk.pdf)
