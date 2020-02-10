@@ -11,5 +11,9 @@ I tried to comment on the code as much as possible, it should be easy to follow.
 I have used a pretrained Xception network without the last two fully connected layers as the feature extractor. It outpus a 2048-d vector for each image, and this vector is fed into the LSTM network as the first activations. The LSTM network I used, consists of two layers of lstm units with 256-d hidden state. I used dropout between two lstm layers. The Flickr8k dataset has been used for train and evaluation of the Image Captioner.  Also attention technique can be used for producing the captions but I haven't tried here. I use Beam search for producing the captions.
 
 ### Model: 
+
 ![](model-final.png)
 
+### More on image captioning:
+
+![Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
