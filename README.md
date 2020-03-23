@@ -4,7 +4,7 @@ I tried to comment on the code as much as possible, it should be easy to follow.
 
 ### Examples of the outputs:
 
-![](results.jpg)
+![](results_modelv2.jpg)
 
 ### Settings:
 
