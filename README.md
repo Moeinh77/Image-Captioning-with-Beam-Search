@@ -12,7 +12,9 @@ I have used a pretrained Xception network without the last two fully connected l
 
 ### Model: 
 
-![](model-final.png)
+The pictures go through Xception network which acts as the encoder in this model. The extracted features of the picture is fed to the decoder both with the input at each step and also as hidden state of the first cell. The decoder is a 2 layer GRU with 256 dim hidden state.
+
+![](model_v2.png)
 
 ### Metric:
 
