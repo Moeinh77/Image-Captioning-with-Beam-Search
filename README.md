@@ -8,11 +8,11 @@ I tried to comment on the code as much as possible, it should be easy to follow.
 
 ### Settings:
 
-I have used a pretrained Xception network without the last two fully connected layers as the feature extractor. It outpus a 2048-d vector for each image, and this vector is fed into the LSTM network as the first activations. The LSTM network I used, consists of two layers of lstm units with 256-d hidden state. I used dropout between two lstm layers. The Flickr8k dataset has been used for train and evaluation of the Image Captioner.  Also attention technique can be used for producing the captions but I haven't tried here. I use Beam search for producing the captions.
+I have used a pretrained Xception network without the last two fully connected layers as the feature extractor. It outpus a 2048-d vector for each image. The extracted vector of the picture is fed to the decoder both with the input at each step and also as hidden state of the first cell.. The GRU network I used, consists of two layers of GRU units with 256-d hidden state. I used dropout between two GRU layers. The Flickr8k dataset has been used for train and evaluation of the Image Captioner. Moreover, attention technique can be used for producing the captions but I haven't tried here. I use Beam search for producing the captions.
 
 ### Model: 
 
-The pictures go through Xception network which acts as the encoder in this model. The extracted features of the picture is fed to the decoder both with the input at each step and also as hidden state of the first cell. The decoder is a 2 layer GRU with 256 dim hidden state.
+The pictures go through Xception network which acts as the encoder in this model.  The decoder is a 2 layer GRU with 256 dim hidden state.
 
 ![](model_v2.png)
 
