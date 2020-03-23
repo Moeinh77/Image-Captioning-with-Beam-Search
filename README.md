@@ -12,8 +12,6 @@ I have used a pretrained Xception network without the last two fully connected l
 
 ### Model: 
 
-The pictures go through Xception network which acts as the encoder in this model.  The decoder is a 2 layer GRU with 256 dim hidden state.
-
 ![](model_v2.png)
 
 ### Metric:
