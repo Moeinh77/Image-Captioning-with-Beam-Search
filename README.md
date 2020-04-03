@@ -2,7 +2,7 @@
 
 I tried to comment on the code as much as possible, it should be easy to follow. Feel free to use the trained model in your own projects. I have included the weight of the trained model. The model reaches the BLEU score (explained in further section) of ~57% for uni-grams on test set, you can improve the score by training the model for longer durations or using a more sophisticated RNN with more layers. If you look at the examples below, you observe that the model is pretty good at recognizing the actions but makes some mistakes at recognising the colors. Beam search with beams of 1,3, and 5 have been tested. Also, I tried using sum of the log of probabilities in beam search and result imporoved a little bit for some samples of the test set as shown below.
 
-I recorded a **Farsi** tutorial about this code you can fund it here: https://www.aparat.com/v/BqVHt?playlist=338869
+I recorded a **Farsi** tutorial about this code you can find it here: https://www.aparat.com/v/BqVHt?playlist=338869
 
 ### Data:
 
