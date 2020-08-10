@@ -26,6 +26,8 @@ I have included the weight of the trained model, feel free to use the trained mo
 
 ### More on image captioning:
 
+I have recorded a **Farsi** tutorial explaining this code. You can find it here: https://www.aparat.com/v/BqVHt?playlist=338869
+
 :notebook: [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
 
 :notebook: [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044)
