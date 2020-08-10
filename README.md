@@ -2,7 +2,7 @@
 
 ### Dataset:
 
-The dataset consist of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. The images were chosen from six different Flickr groups, and tend not to contain any well-known people or locations, but were manually selected to depict a variety of scenes and situations. The images are divided into train set (6000 images), validation set(1000) images, and test set (1000 images).
+The dataset consist of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. The images were chosen from six different Flickr groups, and tend not to contain any well-known people or locations, but were manually selected to depict a variety of scenes and situations. The images are divided into train set (6000 images), validation set(1000 images), and test set (1000 images).
 
 You can download the data from here: https://academictorrents.com/details/9dea07ba660a722ae1008c4c8afdd303b6f6e53b
 or here: https://github.com/jbrownlee/Datasets/releases
